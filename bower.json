@@ -1,0 +1,28 @@
+{
+  "name": "font-to-fit",
+  "version": "0.0.1",
+  "authors": [
+    "Ahmed H. Ismail <ahm3d.hisham@gmail.com>"
+  ],
+  "description": "Angularjs directive to resize an element's font-size property to fit it's width.",
+  "main": "font-to-fit.js",
+  "keywords": [
+    "font",
+    "resize",
+    "responsive",
+    "angular"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/ah450/font-to-fit",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "angular": "~1.4.4"
+  }
+}

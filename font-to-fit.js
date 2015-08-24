@@ -17,9 +17,9 @@
           return element.css('font-size', fontSize + 'px');
         };
         if (attrs.fontToFitUpdate) {
-          return $scope.$watch('text', function(newValue) {
+          return scope.$watch('text', function(newValue) {
             if (newValue) {
-              return resizer(text);
+              return resizer(newValue);
             }
           });
         } else {

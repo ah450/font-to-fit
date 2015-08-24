@@ -13,9 +13,9 @@ angular.module 'fontToFit', []
           fontSize = Math.min fontSize, fontSizeMax
           element.css('font-size', fontSize + 'px')
         if attrs.fontToFitUpdate
-          $scope.$watch 'text', (newValue) ->
+          scope.$watch 'text', (newValue) ->
             if newValue
-              resizer(text)
+              resizer(newValue)
         else
           resizer(scope.text)
             
